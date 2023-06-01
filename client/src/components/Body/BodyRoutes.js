@@ -2,9 +2,10 @@ import React from "react";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Header from "../Header/Header";
 
+import Main from "../../pages/Main/Main";
+
 
 import Favorites from "../Favorite/Favorites";
-import Home from "./bodyPages/Home";
 import CategoryComponents from "./bodyPages/CategoryComponents ";
 import RegisterForm from "../Register/RegisterForm";
 import LoginForm from "../Login/LoginForm";
@@ -38,7 +39,7 @@ const BodyRoutes = () => {
     <Router>
       <Header />
       <Routes>
-        <Route path="/" element={<Home />} />
+        <Route path="/" element={<Main />} />
         <Route path="/OrderList" element={<OrderList />} />
         <Route path="/Favorites" element={<Favorites />} />
         <Route path="/UserUpdate" element={<UserUpdate />} />

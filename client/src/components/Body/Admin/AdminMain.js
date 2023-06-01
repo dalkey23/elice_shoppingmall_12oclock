@@ -1,8 +1,8 @@
 import React from "react";
 import { Link } from 'react-router-dom';
 import styled from "styled-components";
-import categories from '../../img/view_cozy.png'
-import shopping_cart from '../../img/shopping_cart.png'
+import categories from '../../../assets/view_cozy.png'
+import shopping_cart from '../../../assets/shopping_cart.png'
 
 const ListContainer = styled.div`
     display : flex;

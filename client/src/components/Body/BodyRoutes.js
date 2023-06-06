@@ -3,10 +3,10 @@ import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Header from "../Header/Header";
 
 import Main from "../../pages/Main/Main";
+import CategoryComponents from "../../pages/Categories/CategoryComponents ";
 
 
 import Favorites from "../Favorite/Favorites";
-import CategoryComponents from "./bodyPages/CategoryComponents ";
 import RegisterForm from "../Register/RegisterForm";
 import LoginForm from "../Login/LoginForm";
 import ItemInfo from "./bodyPages/ItemInfo";
